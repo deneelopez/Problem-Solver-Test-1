@@ -4,8 +4,13 @@
   "description": "Historical event finder",
   "main": "index.js",
   "scripts": {
+    "test": "jest --coverage",
     "build": "webpack -w --config webpack.config.js --mode production",
     "start": "webpack-dev-server --open"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["html"]
   },
   "repository": {
     "type": "git",

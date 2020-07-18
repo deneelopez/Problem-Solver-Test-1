@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
+    "updateSnap": "npm test -- -u",
     "build": "webpack -w --config webpack.config.js --mode production",
     "start": "webpack-dev-server --open"
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["html"]
+    "coverageReporters": [
+      "html"
+    ]
   },
   "repository": {
     "type": "git",
@@ -32,7 +35,9 @@
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "@types/jest": "^26.0.5",
     "babel-loader": "^8.1.0",
+    "react-test-renderer": "^16.13.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"

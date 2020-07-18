@@ -1,0 +1,35 @@
+{
+  "name": "challenge_1",
+  "version": "1.0.0",
+  "description": "Historical event finder",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w --config webpack.config.js --mode production",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kptkrunch/hratx48-mini-apps-2.git"
+  },
+  "author": "Joshua Edwards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kptkrunch/hratx48-mini-apps-2/issues"
+  },
+  "homepage": "https://github.com/Kptkrunch/hratx48-mini-apps-2#readme",
+  "dependencies": {
+    "hooks": "^0.3.2",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

@@ -4,7 +4,8 @@ with a file structure designed to be used for TDD right out the gates.
 to get started:
 
 1. npm install
-2. npm run build
-3. npm start
+2. npx wdio config (if using test automation)
+3. npm run build
+4. npm start
 
 you are good to go!
